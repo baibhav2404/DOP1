@@ -15,7 +15,7 @@ app = Dash(__name__, server=server)
 file_path = r'/Users/srikrishna/Desktop/DoP1/data21.csv'    # Use the actual path to your CSV file on PythonAnywhere
 
 # Define initial values for A and w (these can be changed in the code or via the web interface)
-A = 4  # Amplitude
+A = 6  # Amplitude
 w = 2 * np.pi  # Angular frequency (example: 2*pi for 1 Hz)
 
 # Function to read the CSV and return the time values
